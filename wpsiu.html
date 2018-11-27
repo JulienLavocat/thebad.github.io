@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Which Port Should I Use ?</title>
+  <meta name="description" content="Which Port Should I Use ?">
+  <meta name="author" content="thebad.xyz">
+
+</head>
+
+<body>
+    <script>
+        
+        document.write(getPort());
+
+        function getPort() {
+
+           return Math.floor(Math.random() * (65536 - 1024 + 1) + 1024);
+
+        }
+
+    </script>
+</body>
+</html>
